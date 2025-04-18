@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/app.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/landing-page-style.css">
 </head>
 
 <body class="dark-mode">
@@ -108,21 +110,23 @@
         <div class="menu-area">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col d-none d-lg-block">
-                        <div class="header-social style2"><span class="social-title">Follow Us</span> <a href="#"><i
-                                    class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a
-                                href="#"><i class="fab fa-instagram"></i></a></div>
+                    <div class="col d-flex justify-content-end gap-4">
+                        <div class="header-icons style3">
+                            <!-- <a href="cart.html" class="cart-icon"><i class="far fa-shopping-bag"></i> -->
+                            </a> <button class="vs-menu-toggle"><i class="fal fa-bars"></i></button>
+                        </div><a href="match-details.html" class="vs-btn d-none d-md-inline-block">Live Streaming</a>
                     </div>
                     <div class="col-auto">
                         <div class="header-logo2"><a href="index.html"><img src="assets/img/logo-3.svg" alt="logo"></a>
                         </div>
                     </div>
-                    <div class="col d-flex justify-content-end gap-4">
-                        <div class="header-icons style3"><a href="cart.html" class="cart-icon"><i
-                                    class="far fa-shopping-bag"></i></a> <button class="vs-menu-toggle"><i
-                                    class="fal fa-bars"></i></button></div><a href="match-details.html"
-                            class="vs-btn d-none d-md-inline-block">Live Streaming</a>
+                    <div class="col d-none d-lg-block">
+                        <div class="header-social style2"><span class="social-title">Follow Us</span> <a href="#"><i
+                                    class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a
+                                href="#"><i class="fab fa-instagram"></i></a></div>
                     </div>
+
+
                 </div>
             </div>
         </div>
@@ -453,7 +457,7 @@
             </div>
         </section>
     </div>
-    
+
     <section class="sec-wrap1 pt-0" data-bg-src="assets/img/bg/match-bg-3-1.png">
         <div class="body-shape1"></div>
         <div class="container">
@@ -1007,6 +1011,235 @@
             </div>
         </div>
     </div>
+    <section>
+        <!-- Section Title -->
+        <div id="innerPage" class="space-top space-extra-bottom">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-7">
+                        <h2 class="sec-title"><span class="text-theme">17+</span> Modern Inner Pages</h2>
+                    </div>
+                    <div class="col-12">
+                        <ul class="filter-menu">
+                            <li><button class="vs-btn isActive active" data-filter="*">All</button></li>
+                            <li><button class="vs-btn" data-filter=".blog">Blog</button></li>
+                            <li><button class="vs-btn" data-filter=".team">Team</button></li>
+                            <li><button class="vs-btn" data-filter=".match">Matchs</button></li>
+                            <li><button class="vs-btn" data-filter=".shop">Shop</button></li>
+                            <li><button class="vs-btn" data-filter=".others">Others</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xl-11">
+                        <div class="row justify-content-center filter-active gx-xxl-5 gy-xxl-3">
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item others">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/about.jpg" alt="About Us">
+                                        <a target="_blank" href="dark/about.html" class="thumb-link vs-btn ">View Page
+                                            &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/about.html">About Us</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item others">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/price-plan.jpg" alt="Pricing Plans">
+                                        <a target="_blank" href="dark/price-plan.html" class="thumb-link vs-btn ">View
+                                            Page &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/price-plan.jpg.html">Pricing
+                                            Plans</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item team">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/team.jpg" alt="page">
+                                        <a target="_blank" href="dark/team.html" class="thumb-link vs-btn ">View Page
+                                            &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/team.html">Team</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item team">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/team-details.jpg" alt="page">
+                                        <a target="_blank" href="dark/team-details.html" class="thumb-link vs-btn ">View
+                                            Page &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/team-details.html">Team
+                                            Details</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item blog">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/blog.jpg" alt="Blog">
+                                        <a target="_blank" href="dark/blog.html" class="thumb-link vs-btn ">View Page
+                                            &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/blog.html">Blog</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item blog">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/blog-details.jpg" alt="Blog Details">
+                                        <a target="_blank" href="dark/blog-details.html" class="thumb-link vs-btn ">View
+                                            Page &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/blog-details.html">Blog
+                                            Details</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item others">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/player-details.jpg" alt="page">
+                                        <a target="_blank" href="dark/player-details.html"
+                                            class="thumb-link vs-btn ">View Page &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/player-details.html">PLAYER
+                                            DETAILS</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item others">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/tournament-details.jpg" alt="page">
+                                        <a target="_blank" href="dark/tournament-details.html"
+                                            class="thumb-link vs-btn ">View Page &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank"
+                                            href="dark/tournament-details.html">Tournament Details</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item others">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/faq.jpg" alt="page">
+                                        <a target="_blank" href="dark/faq.html" class="thumb-link vs-btn ">View Page
+                                            &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/faq.html">FAQ Page</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item match">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/match.jpg" alt="page">
+                                        <a target="_blank" href="dark/match.html" class="thumb-link vs-btn ">View Page
+                                            &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/match.html">Matchs</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item match">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/match-details.jpg" alt="page">
+                                        <a target="_blank" href="dark/match-details.html"
+                                            class="thumb-link vs-btn ">View Page &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/match-details.html">Match
+                                            Details</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item others">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/contact.jpg" alt="Contact Us">
+                                        <a target="_blank" href="dark/contact.html" class="thumb-link vs-btn ">View Page
+                                            &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/contact.html">Contact Us</a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item shop">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/shop.jpg" alt="page">
+                                        <a target="_blank" href="dark/shop.html" class="thumb-link vs-btn ">View Page
+                                            &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/shop.html">Shop</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item shop">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/shop-details.jpg" alt="page">
+                                        <a target="_blank" href="dark/shop-details.html" class="thumb-link vs-btn ">View
+                                            Page &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/shop-details.html">Shop
+                                            Details</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item shop">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/cart.jpg" alt="page">
+                                        <a target="_blank" href="dark/cart.html" class="thumb-link vs-btn ">View Page
+                                            &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/cart.html">Shopping Cart</a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item shop">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/checkout.jpg" alt="page">
+                                        <a target="_blank" href="dark/checkout.html" class="thumb-link vs-btn ">View
+                                            Page &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/checkout.html">Checkout</a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4 col-xxl-3 grid-item others">
+                                <div class="thumb-box">
+                                    <div class="thumb-img">
+                                        <img src="assets/img/pages/error.jpg" alt="Error Page">
+                                        <a target="_blank" href="dark/error.html" class="thumb-link vs-btn ">View Page
+                                            &rarr;</a>
+                                    </div>
+                                    <h3 class="thumb-title"><a target="_blank" href="dark/error.html">Error Page</a>
+                                    </h3>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="position-relative space-top space-extra-bottom" data-bg-src="assets/img/bg/contact-bg-1-1.jpg"><svg
             class="svg-hidden">
             <clipPath id="form-clip1" clipPathUnits="objectBoundingBox">
@@ -1310,6 +1543,7 @@
         </div>
     </footer><a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery.min.js"></script>
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/layerslider.utils.js"></script>
     <script src="assets/js/layerslider.transitions.js"></script>
